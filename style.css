@@ -1,0 +1,192 @@
+
+
+body {
+   background-image:url(foto/fondo\ bruno\ mars.png) ;
+    
+
+   
+
+} 
+
+ .TITULO  { 
+    font-family:  "Audiowide", sans-serif;
+    font-size: 90px;
+    color: #A0522D;
+    margin:60px; 
+    padding: 0;
+    display: flex block;
+    justify-content: center;
+     }
+    
+   
+h2 {
+    font-family:  "Audiowide", sans-serif;
+    font-size: 30px;
+    color: #160802;
+    margin:30px; 
+    padding: 0;
+    display: flex block;
+    justify-content: center;
+}
+
+
+
+h1 .TITULO {
+   padding: 80px;
+   margin: 0;
+   align-content: end;
+   
+}
+
+
+.texto {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 35px ;
+    text-align: center;
+    color: #008B8B;
+    
+}   
+
+
+
+section {
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin-left: 900px;
+    
+    
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .2s ease;
+
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+
+.login{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 300px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 10px ;
+    color: #008B8B;
+    font-size: 25px;
+    font-family: "Indie Flower", cursive;
+    font-style: none;
+   
+    
+    
+}
+
+
+.login label {
+    display: block;
+    margin-bottom: 6%;
+    text-align: left;
+    border-bottom: 2px solid #fff
+    
+   
+
+   
+}
+
+.login input  {
+    width: 75%;
+    padding: 7px;
+    margin-bottom: 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+
+    
+   
+
+}
+
+.login button  {
+    font-family: "Trirong", serif;
+    background-color: #DEB887;
+   border-style: none;
+    color: #a0522d;
+    padding: 10px 30px;
+    display:flex;
+    border-radius: 50px;
+    transition-duration: 0.4s #008B8B;
+    box-shadow: 0 8px 16px;;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.8em;
+    
+}
+
+
+.sider{
+    padding: 30px 0 20px 0;
+    text-decoration: none;
+    color: #800000;
+    display: flex;
+    text-align: center;
+    margin-left: 10px;
+    
+    
+    
+
+}
+
+ h3 a{
+  
+    color: #A0522D;
+    font-size: 15px;
+    font-family: "Audiowide", sans-serif;
+    cursor: pointer;
+    margin-bottom: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    
+   
+    }
+
+
+
+.conteiner  {
+    background-color:#F5F5DC;
+    height: 990px;
+    width:150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+    text-align: center;
+    border-right: 4px solid #800000;
+    
+ 
+}
+
+.conteiner img {
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+
+
+
